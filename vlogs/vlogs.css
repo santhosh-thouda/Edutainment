@@ -1,0 +1,46 @@
+.con1{
+    margin: 65px 0;
+}
+
+.con2 {
+    display: flex;
+    margin: 30px 30px 45px 70px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .con2 a img {
+    width: 450px;
+    height: 280px;
+    border-radius: 20px;
+    /* border: 3px solid white; */
+    box-shadow: 0px 2px 24px 5px rgb(83, 82, 82);
+    transition: border-radius 0.4s, border-shadow 1s;
+  }
+  
+  .con2 a img:hover {
+    border-radius: 25px;
+    box-shadow: 0px 2px 24px 5px rgb(63, 6, 6);
+  }
+  
+  .con3 {
+    /* display: block; */
+    margin: 0px 25px;
+    /* text-align: center; */
+  }
+  
+  .con4 {
+    font-family: "YouTube Sans", "Roboto", sans-serif;
+    font-size: 27px;
+    line-height: 2.8rem;
+    font-weight: 600;
+  }
+  
+  .con5 a {
+    font-size: 1rem;
+    transition: font-size 0.4s;
+  }
+  
+  .con5 a:hover {
+    font-size: 1.1rem;
+  }

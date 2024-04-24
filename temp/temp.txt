@@ -1,0 +1,110 @@
+<header class="header" id="header">
+    <div class="logo">
+      <h1 id="logo">EE</h1>
+      <h1 id="logo1">Edutainment</h1>
+    </div>
+    <div class="nav">
+      <ul class="ul">
+        <li>Home</li>
+        <li>Education</li>
+        <li>Entertainment</li>
+        <li><a href="About us/index.html">About</a></li>
+        <li>Contact</li>
+        <li>Login</li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="top"> <a href="#header">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a></div>
+
+
+
+
+.header {
+  background-color: rgb(122, 46, 209);
+  display: flex;
+  /* margin: 20px; */
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.logo {
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+  /* background-color: aqua; */
+  color: white;
+}
+
+#logo {
+  /* font-family: 'Fredoka One', cursive; */
+  font-family: 'Quicksand', sans-serif;
+  font-size: 400%;
+  margin: -15px 30px;
+  padding: 0;
+}
+
+#logo1 {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: large;
+}
+
+.nav {
+  align-items: center;
+}
+
+.ul {
+  margin-left: 500px;
+  margin: none;
+  display: flex;
+  list-style: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+li {
+  margin-right: 12px;
+  margin-left: 12px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: larger;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.top a i{
+  background-color: rgb(24, 73, 163);
+  color: rgb(228, 222, 222);
+  height: 50px;
+  width: 50px;
+  margin: 17px;
+  /* position:relative ; */
+  /* position: absolute; */
+  border-radius: 50%;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bolder;
+  box-shadow: 0px 2px 24px 5px rgb(87, 86, 86);
+  /* border: 2px solid black; */
+  cursor: pointer;
+  /* text-decoration: none; */
+}
+
+
+<script src="https://kit.fontawesome.com/a5ba3abdc4.js" crossorigin="anonymous"></script>
