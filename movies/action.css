@@ -1,0 +1,590 @@
+.browsesection {
+  /* background: linear-gradient(101.34deg, #0C0324 0%, rgba(12, 3, 36, 0.38) 60.42%, rgba(217, 42, 42, 0.18) 99.99%, rgba(12, 3, 36, 0) 100%); */
+
+  /* background: linear-gradient(-80deg, #510202, rgb(39, 5, 74), rgb(1, 4, 15)); */
+
+  text-align: center;
+
+  /* position: absolute; */
+  width: 100%;
+  height: 1000px;
+
+  margin-bottom: 70px;
+
+}
+
+
+body {
+  background-image: url(image/background2.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  /* width: 1980px;
+    height: ; */
+}
+
+.browse {
+  display: inline-block;
+  text-align: center;
+  width: 1500px;
+}
+
+
+
+.b1 {
+  margin-top: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  /* line-height: 82px; */
+  text-align: center;
+
+  color: rgb(255, 255, 255);
+}
+
+.b2 {
+  /* width: 950px; */
+  margin: 5px 50px;
+  padding: 5px 50px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+}
+
+.b3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.b31,
+.b32,
+.b33,
+.b34,
+.b35,
+.b36 {
+  display: flex;
+
+  /* margin: 20px 30px; */
+}
+
+.b311,
+.b312,
+.b313,
+.b321,
+.b322,
+.b323,
+.b331,
+.b332,
+.b333,
+.b334,
+.b335,
+.b341,
+.b342,
+.b343,
+.b344,
+.b345,
+.b346,
+.b351,
+.b352,
+.b353,
+.b354,
+.b355,
+.b356,
+.b361,
+.b362,
+.b363,
+.b364,
+.b365,
+.b366 {
+  margin: 20px 20px;
+  padding: 0px 20px 0px 20px;
+  width: 400px;
+  height: 200px;
+  text-align: left;
+  transition: transform 0.4s;
+
+}
+
+.b311:hover,
+.b312:hover,
+.b313:hover,
+.b321:hover,
+.b322:hover,
+.b323:hover,
+.b331:hover,
+.b332:hover,
+.b333:hover,
+.b334:hover,
+.b335:hover,
+.b341:hover,
+.b342:hover,
+.b343:hover,
+.b344:hover,
+.b345:hover,
+.b346:hover,
+.b351:hover,
+.b352:hover,
+.b353:hover,
+.b354:hover,
+.b355:hover,
+.b356:hover,
+.b361:hover,
+.b362:hover,
+.b363:hover,
+.b364:hover,
+.b365:hover,
+.b366:hover {
+  transform: scale(1.08);
+
+}
+
+.b3111,
+.b3112,
+.b3113,
+.b3211,
+.b3212,
+.b3213,
+.b3311,
+.b3312,
+.b3313,
+.b3314,
+.b3315 {
+  margin-top: 120px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.b31111,
+.b31112,
+.b31113,
+.b32111,
+.b32112,
+.b32113,
+.b33111,
+.b33112,
+.b33113,
+.b3314,
+.b3315 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.b311 {
+  background-image: url("https://s3images.zee5.com/wp-content/uploads/2022/11/ANI-20221129125434.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+  /* text-decoration: none; */
+}
+
+.b312 {
+  background-image: url("https://resize.indiatvnews.com/en/resize/oldbucket/730_-/entertainmentbollywood/magadheera.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b313 {
+  background-image: url("https://www.pinkvilla.com/imageresize/ismart-shankar-review_0.jpg?width=752&t=pvorg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b321 {
+  background-image: url("https://www.bollywoodhungama.com/wp-content/uploads/2022/08/Liger-Overseas-Box-Office.jpeg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b322 {
+  background-image: url("https://www.andhrawishesh.com/images/phocagallery/Wallpapers/Movies/Telugu/SaahoMovieWallpapers/Sahoo-Movie-Wallpapers-01.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b323 {
+  background-image: url("https://www.thenewsminute.com/sites/default/files/Akhanda_titleteaser_160421_1200.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+
+
+
+.b32 .b323 {
+  background-image: url("https://timesofindia.indiatimes.com/photo/61306487.cms");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b86;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b32 .b331 {
+  background-image: url("https://images.slivcdn.com/videoasset_images/enemy_telugu_21nov_portrait_thumb.jpg?h=494&w=344&t=c_fill&q=low&fr=webp");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b32 .b332 {
+  background-image: url("https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-67jfrtlvkpfe8qpn13o48dm0i3-20171112002321.Medi.jpeg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b32 .b333 {
+  background-image: url("https://flxt.tmsimg.com/assets/p11546593_p_v8_af.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b32 .b321 {
+  background-image: url("https://www.telugu360.com/wp-content/uploads/2019/01/Vinaya-Vidheya-Rama-1.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b32 .b322 {
+  background-image: url("https://swall.teahub.io/photos/small/300-3003263_ala-vaikuntapuramlo-movie-hd-stills-allu-arjun-pooja.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+
+
+.b33 .b323 {
+  background-image: url("https://occ-0-325-778.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWJnR4ZdCKTkSwS0_XpIcvGKHVCwjUBL9_1u-QlygFcyJkxRiAkEdbsTXaMAUeylJosPuCJvOsFazb9aHRf1qNEBQZPiDIwKF4_o.jpg?r=428");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b33 .b331 {
+  background-image: url("https://data1.ibtimes.co.in/en/full/684162/rangasthalam.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b33 .b332 {
+  background-image: url("https://images.indianexpress.com/2021/10/antim-salman-khan-1200.jpeg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b33 .b333 {
+  background-image: url("https://c.ndtvimg.com/2019-01/ff5jdj8o_uri-instagram_625x300_11_January_19.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b33 .b334 {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BZjNhZTNlYjAtNGQ4NS00OWJjLThhZGQtZDFhNDIxZjYxYzA3XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b33 .b335 {
+  background-image: url("https://akamaividz2.zee5.com/image/upload/w_504,h_756,c_scale,f_webp,q_auto:eco/resources/0-0-1z5148717/portrait/1920x770833c2d562bcb4b3eb44700c445287a8f.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+
+
+.b34 .b341 {
+  background-image: url("https://stat4.bollywoodhungama.in/wp-content/uploads/2018/12/10-Years-of-Ghajini1.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b34 .b342 {
+  background-image: url("https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/tiger-zinda-hai-et00046433-30-10-2020-05-09-49.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b34 .b343 {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BMDY4NDU4YjgtNWU1OS00YTVhLWJhY2MtMjEzOGY0YTU1OWVkXkEyXkFqcGdeQXVyNzkxOTEyMjI@._V1_.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b34 .b344 {
+  background-image: url("https://pbs.twimg.com/media/FVgj3IYVUAMFpfj?format=jpg&name=medium");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b34 .b345 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/2/26/Wanted7.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b34 .b346 {
+  background-image: url("https://static.moviecrow.com/gallery/20210712/187454-valimai%20poster.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+
+.b35 .b351 {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BNDZkZmI4MzQtMDg5My00M2Q0LWI2ZjAtODFkNDUzNGU2NDI3XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b35 .b352 {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/S/pv-target-images/244951f7a45aa197f48bbf3b59e677bb675b3ca9d1478e47d9f9371d66e420f2._RI_V_TTW_.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b35 .b353 {
+  background-image: url("https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/srimanthudu-et00031158-01-12-2019-04-10-00.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b35 .b354 {
+  background-image: url("https://i0.wp.com/bestoftheyear.in/wp-content/uploads/2017/06/singam-poster.jpg?fit=400%2C520&ssl=1");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b35 .b355 {
+  background-image: url("https://sund-images.sunnxt.com/6996/640x360_Singam2_6996_e94307ad-6dfc-440c-bd8a-e892160567ad.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b35 .b356 {
+  background-image: url("https://movieassetsdigital.sgp1.cdn.digitaloceanspaces.com/original/03f08cfb8e835a8a56594c5951be236703d81266");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+
+.b36 .b361 {
+  background-image: url("https://m.media-amazon.com/images/I/71morQGXJUL._RI_.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b36 .b362 {
+  background-image: url("https://w0.peakpx.com/wallpaper/757/267/HD-wallpaper-krack-ravi-teja-shruthi-hassan-telugu-movie.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b36 .b363 {
+  background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/201812/Maari_2.jpeg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b36 .b364 {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BZDRlNzk5OWUtNTIwNi00MDhmLThhYTctMTQ2OGM3NWU1ZTU5XkEyXkFqcGdeQXVyMzc5Nzk1NDY@._V1_.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b36 .b365 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/d/da/BABY_poster_2015.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}
+
+.b36 .b366 {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BZjJiNjU4NmYtMTA5OS00N2QyLTgxNDMtMmM4OGE5N2RjYzllXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg");
+  /* background-image: linear-gradient(279.7deg, rgba(0, 133, 255, 0) 99.99%, rgba(12, 3, 36, 0) 100%), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  background-color: #02012b71;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 3px solid aqua;
+}

@@ -1,0 +1,1107 @@
+body{
+    /* background-image: url("https://images.unsplash.com/photo-1503925802536-c9451dcd87b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(247, 247, 66);
+    background-size: cover;
+    background-position: center;
+    height: 1000%;
+}
+
+
+.header {
+  background-color: rgb(122, 46, 209);
+  display: flex;
+  /* margin: 20px; */
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.logo {
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+  /* background-color: aqua; */
+  color: white;
+}
+
+#logo {
+  /* font-family: 'Fredoka One', cursive; */
+  font-family: 'Quicksand', sans-serif;
+  font-size: 400%;
+  margin: -15px 30px;
+  padding: 0;
+}
+
+#logo1 {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: large;
+}
+
+.nav {
+  align-items: center;
+}
+
+.ul {
+  margin-left: 500px;
+  margin: none;
+  display: flex;
+  list-style: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+li {
+  margin-right: 12px;
+  margin-left: 12px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: larger;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.top a i{
+  background-color: rgb(35, 107, 240);
+  color: rgb(228, 222, 222);
+  height: 50px;
+  width: 50px;
+  margin: 17px;
+  /* position:relative ; */
+  /* position: absolute; */
+  border-radius: 50%;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bolder;
+  box-shadow: 0px 2px 24px 5px rgb(87, 86, 86);
+  /* border: 2px solid black; */
+  cursor: pointer;
+  /* text-decoration: none; */
+}
+
+
+.b3 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .b31,
+  .b32,
+  .b33,
+  .b34,
+  .b35,
+  .b36,
+  .b37,
+  .b38,
+  .b39 {
+    display: flex;
+    /* margin: 20px 30px; */
+  }
+
+  .b311,
+  .b312,
+  .b313,
+  .b321,
+  .b322,
+  .b323,
+  .b331,
+  .b332,
+  .b333,
+  .b334,
+  .b335,
+  .b341,
+  .b342,
+  .b343,
+  .b344,
+  .b345,
+  .b346,
+  .b347,
+  .b348,
+  .b349,
+  .b351,
+  .b352,
+  .b353,
+  .b354,
+  .b355,
+  .b361,
+  .b362,
+  .b363,
+  .b364,
+  .b365,
+  .b371,
+  .b372,
+  .b373,
+  .b374,
+  .b375,
+  .b381,
+  .b382,
+  .b383,
+  .b384,
+  .b385,
+  .b391,
+  .b392,
+  .b393,
+  .b394,
+  .b395    {
+    margin: 20px 20px;
+    padding: 40px 25px 0px 10px;
+    /* width: 400px;
+    height: 200px;
+    text-align: left; */
+    transition: transform 0.4s;
+  }
+  
+  .b311:hover,
+  .b312:hover,
+  .b313:hover,
+  .b321:hover,
+  .b322:hover,
+  .b323:hover,
+  .b331:hover,
+  .b332:hover,
+  .b333:hover,
+  .b334:hover,
+  .b335:hover,
+  .b341:hover,
+  .b342:hover,
+  .b343:hover,
+  .b344:hover,
+  .b345:hover,
+  .b346:hover,
+  .b347:hover,
+  .b348:hover,
+  .b349:hover,
+  .b351:hover,
+  .b352:hover,
+  .b353:hover,
+  .b354:hover,
+  .b355:hover,
+  .b361:hover,
+  .b362:hover,
+  .b363:hover,
+  .b364:hover,
+  .b365:hover,
+  .b371:hover,
+  .b372:hover,
+  .b373:hover,
+  .b374:hover,
+  .b375:hover,
+  .b381:hover,
+  .b382:hover,
+  .b383:hover,
+  .b384:hover,
+  .b385:hover 
+  .b391:hover,
+  .b392:hover,
+  .b393:hover,
+  .b394:hover,
+  .b395:hover    {
+    transform: scale(1.08);
+  }
+
+.square-card {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    border-radius: 9px;
+    background-color: rgb(29, 29, 28);
+    
+  }
+  
+  .b3 .b31 .b311 .square-card .diamond-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #fff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-image: url("https://resenhandosonhos.com/wp-content/uploads/2017/08/the-last-ship.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 1px;
+  }
+
+
+  .b3 .b31 .b312 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 181.42px;
+    height: 181.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://images6.fanpop.com/image/photos/41400000/The-Last-Ship-Season-1-Poster-the-last-ship-tnt-41467888-595-882.jpg");
+  }
+
+
+  .b3 .b31 .b313 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://marvel-b1-cdn.bc0a.com/f00000000280066/d2snwnmzyr8jue.cloudfront.net/wbv_6000106786_270.jpeg");
+  }
+
+
+
+  .b3 .b31 .b321 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://images6.fanpop.com/image/photos/41400000/The-Last-Ship-Season-4-Poster-the-last-ship-tnt-41467902-1600-1200.jpg");
+  }
+
+
+  .b3 .b31 .b322 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://flxt.tmsimg.com/assets/p15729031_b1t_h9_aa.jpg");
+  }
+
+
+  .b3 .b32 .b323 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/d/dc/The_Family_Man.jpeg");
+  }
+
+
+  .b3 .b32 .b331 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://englishtribuneimages.blob.core.windows.net/gallary-content/2021/5/2021_5$largeimg_1992295644.jpeg");
+  }
+
+
+  .b3 .b32 .b332 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://wallpaperaccess.com/full/6790805.jpg");
+  }
+
+
+  .b3 .b32 .b333 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://indian-brand.com/wp-content/uploads/2022/10/1630668922_195292_1630670701_noticia_normal_recorte1.jpg");
+  }
+
+
+  .b3 .b32 .b334 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMGUyOTFkMzUtOTQ5ZC00YjMzLWIyMGMtOWU2M2VkMDMxZTRjXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_.jpg");
+  }
+
+
+
+  .b3 .b33 .b335 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://wallpaperaccess.com/full/2703652.png");
+  }
+
+
+  .b3 .b33 .b341 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://www.koimoi.com/wp-content/new-galleries/2021/09/money-heist-5-vol-1-review001.jpg");
+  }
+
+
+  .b3 .b33 .b342 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/4/4c/The_Night_Manager_%28Indian_TV_series%29.jpg");
+  }
+
+
+  .b3 .b33 .b343 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://timesofindia.indiatimes.com/thumb/88435702.cms?width=219&height=317&quality=80&imgsize=16208");
+  }
+
+
+  .b3 .b33 .b344 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_2_5x/sources/r1/cms/prod/6306/1306306-h-7fe83e4f4799");
+  }
+
+
+
+  .b3 .b34 .b345 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/3/38/Escaype_live.jpg");
+  }
+
+
+  .b3 .b34 .b346 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNzY1NDE2MWQtNzJlOC00MGZiLTkxN2YtMTQ5YWVkMTA2MGU5XkEyXkFqcGdeQXVyMTE0MDk1NjA1._V1_.jpg");
+  }
+
+
+  .b3 .b34 .b347 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://static.toiimg.com/photo/msid-88118076/Aarya%20Season%202.jpg?88118076");
+  }
+
+
+  .b3 .b34 .b348 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BZTM4ZTMwZTktYWQxNi00ZDcwLTllM2ItN2E0NmVmYWU4MjNlXkEyXkFqcGdeQXVyMzIyMzQ4ODc@._V1_.jpg");
+  }
+
+
+  .b3 .b34 .b349 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/2152/912152-h");
+  }
+
+
+
+  .b3 .b35 .b351 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://cdn.123telugu.com/content/wp-content/uploads/2020/10/Addham-1.jpg");
+  }
+
+
+  .b3 .b35 .b352 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://image.tmdb.org/t/p/w500/f1uYNCBNHpLUuhh5FK82gcKY8RA.jpg");
+  }
+
+
+  .b3 .b35 .b353 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://www.boloji.com/member-files/72inwt0h/1040975-v-7585cc722b63.jpg");
+  }
+
+
+  .b3 .b35 .b354 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://i.ytimg.com/vi/jY-Ud5s85pM/mqdefault.jpg");
+  }
+
+
+  .b3 .b35 .b355 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://i.ytimg.com/vi/AlmfhMou7gI/maxresdefault.jpg");
+  }
+
+
+
+  .b3 .b36 .b361 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://i.ytimg.com/vi/ZAxTOWTxjMc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBI-Jph4-gQ7fIWAPKNhFRkYVLkLA");
+  }
+
+
+  .b3 .b36 .b362 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://cdn.tollywood.net/wp-content/uploads/2022/02/Sensational-1-point-2-Crore-Views-For-First-Two-Episodes-Of-Chai-Biskets-30-Weds-21-Season-2.jpg");
+  }
+
+
+  .b3 .b36 .b363 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BZTY5ZmMwMDQtMmYxYy00ZTYyLWE5MDItZGUwM2I5NTAwOGUwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg");
+  }
+
+
+  .b3 .b36 .b364 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://image.tmdb.org/t/p/w500/c2gon6zbqzL73DOl8mPQMMUJXvE.jpg");
+  }
+
+
+  .b3 .b36 .b365 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/7/78/Stranger_Things_season_4.jpg");
+  }
+
+
+
+  .b3 .b37 .b371 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNThlNGZjZDQtYzJjMi00MzM4LWFkNjctNDMwZmFjNWJkM2I4XkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_.jpg");
+  }
+
+
+  .b3 .b37 .b372 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMjEzNzMwNjAzMl5BMl5BanBnXkFtZTgwMTI4MzY3NjM@._V1_.jpg");
+  }
+
+
+  .b3 .b37 .b373 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://i.zoomtventertainment.com/story/Mirzapur_season_2_new_poster_out.jpg");
+  }
+
+
+  .b3 .b37 .b374 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://tvline.com/wp-content/uploads/2021/08/lucifer-final-season-6-poster.jpg");
+  }
+
+
+  .b3 .b37 .b375 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg");
+  }
+
+
+
+  .b3 .b38 .b381 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BYmRhZjkyMjEtNjRkMS00MDQ0LTg2NGMtMTQ3ZjE0NjJmMjM2L2ltYWdlXkEyXkFqcGdeQXVyNTY0MTkxMTg@._V1_FMjpg_UX1000_.jpg");
+  }
+
+
+  .b3 .b38 .b382 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://moviegalleri.net/wp-content/uploads/2022/10/Anjali-Jhansi-Web-Series-Poster.jpeg");
+  }
+
+
+  .b3 .b38 .b383 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://www.cinejosh.com/reviewsimg/big/jhansi-season-2-review_b_1901230111.jpg");
+  }
+
+
+  .b3 .b38 .b384 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://assets.gadgets360cdn.com/pricee/assets/product/202211/Fall_1669705630.jpg");
+  }
+
+
+  .b3 .b38 .b385 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://i.pinimg.com/originals/ef/aa/ed/efaaed890d0de35710835306c54da20a.jpg");
+  }
+
+
+  .b3 .b39 .b391 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BYmRhZjkyMjEtNjRkMS00MDQ0LTg2NGMtMTQ3ZjE0NjJmMjM2L2ltYWdlXkEyXkFqcGdeQXVyNTY0MTkxMTg@._V1_FMjpg_UX1000_.jpg");
+  }
+
+
+  .b3 .b39 .b392 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://moviegalleri.net/wp-content/uploads/2022/10/Anjali-Jhansi-Web-Series-Poster.jpeg");
+  }
+
+
+  .b3 .b39 .b393 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://www.cinejosh.com/reviewsimg/big/jhansi-season-2-review_b_1901230111.jpg");
+  }
+
+
+  .b3 .b39 .b394 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: url("https://assets.gadgets360cdn.com/pricee/assets/product/202211/Fall_1669705630.jpg");
+  }
+
+
+  /* .b3 .b39 .b395 .square-card .diamond-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background-color: #ffffff;
+    width: 161.42px;
+    height: 161.42px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-image: url("https://i.pinimg.com/originals/ef/aa/ed/efaaed890d0de35710835306c54da20a.jpg");
+  } */
+  
+  .diamond-card h2 {
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+   .diamond-card p {
+    margin-bottom: 0;
+    color: rgb(0, 0, 255);
+  }
+  
+  .diamond-card a {
+    display: block;
+    margin-top: 100px;
+    background-color: rgb(255, 177, 33);
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    /* position: fixed; */
+    justify-content: last baseline;
+    border-radius: 5px;
+  }
+  
