@@ -1,0 +1,53 @@
+body{
+  background-image: url(image/mbg.avif);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  /* background-color: aqua; */
+}
+.row {
+  display: flex;
+  /* flex-wrap: wrap; */
+   
+  align-items: center;
+  justify-content: flex-start;
+  color: wheat;
+  font-weight: bolder;
+  font-size: 25px;
+  margin-left: -60px;
+  overflow: hidden;
+}
+h1{
+  color: aliceblue;
+}
+
+.column {
+  width: calc(100% / 7);
+  text-align: center;
+  margin: 24px 60PX;
+  flex-direction: column;
+}
+
+.img {
+  width: 280px;
+  height: 200px;
+  border-radius: 10%;
+  transition: all 0.3s ease-in-out;
+  border: 3px solid black;
+}
+
+.img:hover {
+  transform: scale(1.1);
+  /* box-shadow: 10px 10px 10px #ffff00e1; */
+}
+/* .row {
+  text-align: center;
+  margin-top: 40px;
+}
+.column{
+  display: flex;
+} */
+
+
+
+
